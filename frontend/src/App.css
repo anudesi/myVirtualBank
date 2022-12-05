@@ -1,0 +1,67 @@
+.forms {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+input {
+  width: 40%;
+  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+input[type="submit"] {
+  font-size: 1rem;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+label {
+ 
+  padding-left: 20px;
+  margin-right: 5px;
+}
+.content{
+  width: 80%; 
+  height: 800px;      
+  display: flex;    
+  flex-wrap: wrap;   
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap:20px;
+}
+span{
+  margin: 10px;
+  cursor: pointer;
+}
+.hideEdit{
+  height: 20px;
+  display: none;
+}
+.showEdit{
+  height: 20px;
+  display: block;
+}
+li{
+  list-style: none;
+}
+.homeContent{
+  position: relative;
+
+}
+.homeContent h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+  font-size: 2rem;
+}

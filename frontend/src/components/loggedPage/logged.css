@@ -1,0 +1,12 @@
+.logContainer{
+    width:80%;
+    border: 1px solid gray;
+    display: flex;   
+    padding: 20px;
+}
+.logBlock{
+    width: 400px;
+}
+h4{
+    text-align: center;
+}
