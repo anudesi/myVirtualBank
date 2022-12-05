@@ -3,8 +3,8 @@ import "./content.css";
 import React from "react";
 import banking from "../../images/Home-loan.jpg";
 import invest from "../../images/invest.jpg";
-import loans from "../../images/pexels-gabriel-hohol-3593947.jpg";
-import offers from "../../images/pexels-maitree-rimthong-1602726.jpg";
+/* import loans from "../../images/miscellaneous.jpg"; */
+import offers from "../../images/saving.jpg";
 
 function Content() {
   return (
@@ -18,7 +18,7 @@ function Content() {
         <h2>Investment</h2> 
       </div>
       <div className="loans homeContent">
-        <img src={loans} alt="loans" />
+        <img src="http://localhost:3000/images/miscellaneous.jpg" alt="loans" />
         <h2>miscellaneous</h2> 
       </div>
       <div className="offers homeContent">

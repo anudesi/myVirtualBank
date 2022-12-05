@@ -1,7 +1,7 @@
 import "./about.css"
 
 import React from 'react'
-import images from "../../images/HomePage-background.jpg"
+import images from "../../images/goldbar.jpg"
 
 
 function AboutUs() {
